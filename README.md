@@ -1,6 +1,6 @@
 # MSCS-532-B01-Assignment4
 
-Assignment 4: Heap Data Structures: Implementation, Analysis, and Applications
+# Assignment 4: Heap Data Structures: Implementation, Analysis, and Applications
 
 Heapsort Implementation and Analysis
 
