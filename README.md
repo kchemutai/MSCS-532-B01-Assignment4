@@ -45,15 +45,21 @@ I am going to use a max heap implementation. Tasks with the highest priority val
 
 The class PriorityQueue, and Task that will be utilized for implementation of a max heap.
 
-Task class:  
-ProprityQueue class:
+Task class: Task.py
+ProprityQueue class: PriorityQueue.py
 
 Time Complexity Analysis
 The time complexity remains the same:
 
-- Insertion (insert): O(logn) for maintaining heap property.
-- Extract Maximum (extract_max): O(logn) for heap reordering.
-- Increase Key (increase_key): O(logn) for adjusting the position of the task.
-- Is Empty (is_empty): O(1).
+- **Insertion (insert):** O(logn) for maintaining heap property.
+- **Extract Maximum (extract_max):** O(logn) for heap reordering.
+- **Increase Key (increase_key):** O(logn) for adjusting the position of the task.
+- **Is Empty (is_empty):** O(1).
 
 **Example Scheduler Simulation with Max-Heap:**
+
+![alt text](image-2.png)
+
+Run python priority_queue_simulation.py on the root directory.
+
+Simulation file: priority_queue_simulation.py
